@@ -1,0 +1,46 @@
+#one{
+    border: 10px solid tomato;
+}
+
+#two{
+    border: 10px dotted teal;
+}
+
+#three{
+    border: 10px dashed crimson;
+}
+
+#four{
+    border: 10px double seagreen;
+}
+
+#five{
+    border: 10px groove purple;
+}
+
+#six{
+    border: 10px ridge gray;
+}
+
+#seven{
+    border: 10px inset dodgerblue;
+}
+
+#eight{
+    border: 10px outset goldenrod;
+}
+
+#nine{
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+.div{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 20px 5px 10px red;
+}

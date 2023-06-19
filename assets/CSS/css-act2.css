@@ -1,0 +1,37 @@
+*{
+    width: 100%;
+}
+
+div{
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+
+.name{
+    font-weight: bold;
+    margin: 20px 30px;
+}
+
+.role{
+    margin: 20px 30px;
+}
+
+.man{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.woman{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px 10px 0px 0px;
+}

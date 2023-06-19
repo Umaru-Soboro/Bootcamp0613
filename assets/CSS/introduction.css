@@ -1,0 +1,20 @@
+*{
+background-color: green;
+color: red;
+}
+
+h1{
+    color: pink;
+}
+
+.first-paragraph{
+    color: blue;
+}
+
+#second-paragraph{
+    color: brown;
+}
+
+.nav-links li{
+color:cornsilk ;
+}

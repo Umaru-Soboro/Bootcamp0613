@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Table Elements</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>29</td>
+                <td>john@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>27</td>
+                <td>jane@yahoo.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+        </tfoot>
+    </table>
+<hr>
+    <h2>colspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>23232323</td>
+            <td>34343434</td>
+        </tr>
+        <tr>
+            <td>Steve</td>
+            <td>45454545</td>
+            <td>56565656</td>
+        </tr>
+    </table>
+<hr>
+    <h2>rowspan</h2>
+    <table border="1">
+       <tr>
+            <th>Name</th>
+            <td>Bill</td>
+            <td>Steve</td>
+       </tr>
+       <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>121212</td>
+            <td>232323</td>
+       </tr>
+       <tr>
+            <!-- <th></th> -->
+            <td>343434</td>
+            <td>454545</td>
+       </tr>
+    </table>
+</body>
+</html>

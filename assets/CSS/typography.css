@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+#item-1{
+    color: pink;
+    opacity: .5;
+}
+
+#item-2{
+    color: rgb(72, 236, 251);
+    opacity: .7;
+}
+
+#item-3{
+    color: rgba(233, 53, 233, 0.5);
+
+}

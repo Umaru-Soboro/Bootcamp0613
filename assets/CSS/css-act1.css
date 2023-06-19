@@ -1,0 +1,40 @@
+table{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(228, 128, 128);
+}
+
+th{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+
+tr.row1 {
+    background-color: rgb(242, 172, 153);
+}
+
+tr.row2 {
+    background-color: white;
+}
+
+td.email{
+    color: blueviolet;
+    text-decoration:underline;
+
+}
+
+td#address{
+    text-transform: uppercase;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
